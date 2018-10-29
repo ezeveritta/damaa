@@ -1,0 +1,79 @@
+/*
+  * file:        Damaa - Library
+  * autor:       Ezequiel E. Vera
+  * date:        2018/10/29 - 19:01
+  * description: Own css style library for personal proyects
+  * version:     0.0.1
+*/
+
+/*
+ Use $... as tags (example: $tag), to find properties faster (use ctrl+f to search mode).
+ */
+
+/*$background*/
+.bgc-0{background-color:#000000;}                /*$bgc-0*/
+.bgc-1{background-color:#030303;}
+.bgc-2{background-color:#0e0e0e;}
+.bgc-3{background-color:#202020;}
+.bgc-4{background-color:#3a3a3a;}
+.bgc-5{background-color:#5c5c5c;}
+.bgc-6{background-color:#838383;}
+.bgc-7{background-color:#afafaf;}
+.bgc-8{background-color:#dadada;}
+.bgc-9{background-color:#ffffff;}
+.bgc-r0{background-color:#331111;}                /*$bgc-r0*/
+.bgc-r1{background-color:#361010;}
+.bgc-r2{background-color:#3e1010;}
+.bgc-r3{background-color:#4d1111;}
+.bgc-r4{background-color:#621413;}
+.bgc-r5{background-color:#7c1817;}
+.bgc-r6{background-color:#9c1e1c;}
+.bgc-r7{background-color:#bf2721;}
+.bgc-r8{background-color:#e13626;}
+.bgc-r9{background-color:#ff4b2b;}
+
+
+/*$display*/
+.d-g{display:grid;}
+
+/*$grid*/
+.g-c1{grid-template-columns:1fr;}                                 /*grid-columns*/
+.g-c2{grid-template-columns:1fr 1fr;}
+.g-c3{grid-template-columns:1fr 1fr 1fr;}
+.g-c4{grid-template-columns:1fr 1fr 1fr 1fr;}
+.g-c5{grid-template-columns:1fr 1fr 1fr 1fr 1fr;}
+.g-c6{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-c7{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-c8{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-c9{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-c10{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-r1{grid-template-rows:1fr;}                                    /*grid-rows*/
+.g-r2{grid-template-rows:1fr 1fr;}
+.g-r3{grid-template-rows:1fr 1fr 1fr;}
+.g-r4{grid-template-rows:1fr 1fr 1fr 1fr;}
+.g-r5{grid-template-rows:1fr 1fr 1fr 1fr 1fr;}
+.g-r6{grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-r7{grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-r8{grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-r9{grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.g-r10{grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+
+.g-g5{grid-gap:5px;}                                              /*grid-gap*/
+.g-g8{grid-gap:8px;}
+.g-g10{grid-gap:10px;}
+.g-g14{grid-gap:14px;}
+.g-g15{grid-gap:15px;}
+.g-g18{grid-gap:18px;}
+.g-g20{grid-gap:20px;}
+.g-g25{grid-gap:25px;}
+.g-g30{grid-gap:30px;}
+.g-g35{grid-gap:35px;}
+.g-g40{grid-gap:40px;}
+.g-g50{grid-gap:50px;}
+.g-g60{grid-gap:60px;}
+.g-g80{grid-gap:80px;}
+
+/*$escensials*/
+*{margin:0px;padding:0px;}
+a, a:visited{text-decoration:none;}
+input, input:focus{outline:none;}
