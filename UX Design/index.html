@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>damaa designs - projects</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Assets/damaa-library/damaa-0.0.1.css">
+    <!-- JAVASCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../Assets/damaa-library/damaa-0.0.1.js" charset="utf-8"></script>
   </head>
   <body>
     <!-- Content -->
@@ -10,14 +15,57 @@
       <div class="title">
         <span>damaa's projects designs</span>
       </div>
-      <div id="designs-links">
+      <div id="designs-links" class="d-g g-c4 g-g15">
         <a href="" class="designlink">
-          <img src="" alt="" class="image">
+          <img src="Designs/Template/assets/cover.jpg" alt="" class="cover">
           <span class="title">
             template
           </span>
         </a>
+        <!-- links style -->
+        <style media="screen">
+          .designlink {
+            display: inline-block;
+            width: 320px;
+            height: 220px;
+
+            border: none; border-radius: 8px;
+
+            background: #fff;
+            box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.2);
+
+            overflow: hidden;
+          }
+          .cover {
+            width: 320px;
+            height: 220px;
+            z-index: 2;
+          }
+          .designlink span.title {
+            text-align: center;
+            margin-top: -30px;
+
+            font-family: Open Sans, Sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+          }
+          /*hovers*/
+          .designlink:hover {
+            box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.25);
+            border-radius: 5px;
+          }
+        </style>
       </div>
     </div>
+    <!-- script -->
+    <script type="text/javascript">
+      $(function () {
+
+        // code..
+
+      });
+    </script>
+
   </body>
 </html>
